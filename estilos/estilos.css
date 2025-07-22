@@ -1,26 +1,94 @@
 body {
     padding: 0;
-    margin: 0;
+    margin: 0px;
     background-color: #ffffff;
 }
 
 .navbar{
-    margin: 15px;
-    padding: 25px;
+    margin: 0px;
+    padding: 0px;
+}
+
+.navbar-brand{
+    margin-left: 30px;
 }
 
 .nav-link {
-    color:#000000;
+    color:#004C6C;
     font-size: 17px;
     font-weight: bold;
 }
 
 .nav-link:hover {
-    color: #004C6C;
+    color: #000000;
 }
 .navbar-toggler {
     background-color: #004C6C;
 }
 .barra {
+    padding: 0px;
+    margin: 0px;
     background-color: #004C6C;
 }
+
+.carousel-container {
+    max-width: 100%;
+    margin: 0 auto;
+}
+
+.carousel-inner img {
+    height: 100vh;
+    object-fit: cover;
+}
+
+.LetraSuave {
+    font-size: 15px;
+    color: #849297;
+}
+
+.SeccionProductos {
+    padding: 20px;
+    background-color: #b4c7d1;
+}
+.ImageIcon {
+    font-size: 100px;
+}
+
+.uno:hover{
+    transform: scale(1.25);
+    transition: transform 0.3s ease;
+}
+
+.barraFooter {
+    background: #004C6C;
+}
+
+
+.btn-floating i {
+    color: #ffffff;
+    font-size: 25px; 
+    transition: color 0.3s ease;
+}
+
+.btn-floating:hover i {
+    color: #000000; 
+}
+
+.whatsapp-float {
+    position: fixed;
+    width: 60px;
+    height: 60px;
+    bottom: 20px;
+    right: 20px;
+    background-color: #25d366;
+    color: white;
+    border-radius: 50px;
+    text-align: center;
+    font-size: 30px;
+    z-index: 1000;
+}
+.whatsapp-float i {
+    margin-top: 7px;
+    font-size: 45px;
+}
+
