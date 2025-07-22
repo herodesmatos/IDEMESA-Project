@@ -26,8 +26,6 @@ body {
     background-color: #004C6C;
 }
 .barra {
-    padding: 0px;
-    margin: 0px;
     background-color: #004C6C;
 }
 
@@ -37,13 +35,29 @@ body {
 }
 
 .carousel-inner img {
-    height: 100vh;
+    height: 80vh;
     object-fit: cover;
 }
 
-.LetraSuave {
-    font-size: 15px;
-    color: #849297;
+.card:hover {
+    transform: translateY(-5px);
+    transition: transform 0.3s ease;
+}
+.card:active {
+    transform: scale(0.95);
+}
+
+.card2 {
+    transition: transform 0.2s ease-in-out;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+}
+.card2:hover {
+    transform: translateY(-5px);
+}
+.card-img-top2 {
+    height: 150px;
+    object-fit: cover;
 }
 
 .SeccionProductos {
@@ -54,9 +68,15 @@ body {
     font-size: 100px;
 }
 
-.uno:hover{
+.ImageIcon:hover{
     transform: scale(1.25);
     transition: transform 0.3s ease;
+}
+
+.abecedario {
+    margin-left: 15px; 
+    color: #004C6C; 
+    font-weight: bold;
 }
 
 .barraFooter {
@@ -92,3 +112,8 @@ body {
     font-size: 45px;
 }
 
+.card-img-top {
+  height: auto;       /* Deja que la imagen defina su propia altura */
+  max-height: 250px;  /* Ajusta si quieres limitar la altura */
+  object-fit: cover; /* O usa 'cover' si quieres recortar proporcionalmente */
+}
