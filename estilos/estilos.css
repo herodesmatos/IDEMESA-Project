@@ -79,6 +79,14 @@ body {
     font-weight: bold;
 }
 
+/* Barras de contactos */
+
+.barraContacto {
+    background: #e1e7eb;
+    background: linear-gradient(270deg, rgba(225, 231, 235, 1) 0%, rgba(255, 255, 255, 1) 100%);
+    border-radius: 15px;
+}
+
 .barraFooter {
     background: #004C6C;
 }
@@ -110,10 +118,4 @@ body {
 .whatsapp-float i {
     margin-top: 7px;
     font-size: 45px;
-}
-
-.card-img-top {
-  height: auto;       /* Deja que la imagen defina su propia altura */
-  max-height: 250px;  /* Ajusta si quieres limitar la altura */
-  object-fit: cover; /* O usa 'cover' si quieres recortar proporcionalmente */
 }
