@@ -18,6 +18,7 @@
     <link rel="shortcut icon" href="./Imagenes/Identificador logomarca sin fondo.PNG" type="image/x-icon">
 </head>
 <body>
+    
     <!-- Barra de Nav inicia -->
     <nav class="navbar navbar-expand-md navbar-dark bg-white sticky-top mt-4">
         <div class="container-fluid">
@@ -49,12 +50,11 @@
     </nav>
     <!-- Barra de Nav fin -->
 
-    <main>
-
-        <section class="container-fluid">
+    <main>        
+        <section class="container-fluid" style="margin: 0px;">
             <div class="row">
-                <div class="barra text-center p-3 my-4 text-white">
-                    <img src="./Imagenes/Identificador logomarca.PNG" alt="Logo" width="150" class="d-block mx-auto mb-3 mt-0">
+                <div class="barra text-center p-3 mb-3 text-white">
+                    <img src="./Imagenes/Identificador logomarca.PNG" alt="Logo" width="150" class="d-block mx-auto my-3">
                     <h1 class="text-center">IDEMESA</h1>
                     <p class="text-center">Medicamentos para la salud</p>
                 </div>
@@ -62,7 +62,7 @@
         </section>
 
         <div class="carousel-container">
-            <div id="carouselExampleAutoplaying" class="carousel slide" data-bs-ride="carousel">
+            <div id="carouselExampleAutoplaying" class="carousel slide" data-bs-ride="carousel" data-bs-pause="false">
                 <div class="carousel-inner">
                     <div class="carousel-item active" data-bs-interval="3000">
                         <img src="./Imagenes/material gastable de cirujia, guantes, mascarillas, alcohol, algodón, jeringas, catéteres.png" class="d-block w-100" alt="...">
@@ -85,113 +85,347 @@
             </div>
         </div>
 
-        <section class="container mt-4" >
-            <div class = "row">
-                <div class="col-lg-7" style="height: 600px; overflow: hidden;">
-                    <div class="d-flex justify-content-center mb-4">
-                        <a href="./Paginas/productos.html" style="text-decoration: none;">
-                            <div class="card card1">
-                                <img class="card-img-top" src="./Imagenes/Medicamentos profesionales recortado.png" style="max-height: 400px;" alt="Distintos productos farmaceuticos">
-                                <div class="card-body">
-                                    <h4 class="card-title">Somos importadores y distribuidores de medicamentos para la salud.</h4>
-                                    <p class="card-text">Pastillas, jarabes,inyectables, material médico gastable y más</p>
-                                </div>
-                            </div>
-                        </a>
-                    </div>
+        <!-- Marquee -->
+        <a href="./Paginas/Marcas.html">
+            <marquee behavior="scroll" direction="left" scrollamount="8" style="font-size: 24px; color: #004C6C; background: #fff; padding: 15px; font-weight: bold;">
+        🚀 ¡Visita nuestra variedad de productos de la marca PRIME MEDICAL y PRIME SUTURES! Suturas quirúrgicas, guantes, sondas y más.. 🧵
+            </marquee>
+        </a>
+        <!-- Marquee -->
+
+        <section class="grid-container">
+            <a href="./Paginas/productos.html" class="cont-1">
+                <div class="descripcion"> 
+                    <h4>En IDEMESA tenemos todos los productos que necesitas para tu salud </h4>
+                    <p>Pastillas, jarabes,inyectables, material médico gastable y más</p>
                 </div>
-                <div class="col-lg-5">
-                    <div class="row">
-                        <div class="col">
-                            <div class="card mb-3" onclick="location.href='paginas/contacto.html';" style="cursor: pointer;">
-                                <div class="row g-0">
-                                    <div class="col-lg-5" style="height: 250px; overflow: hidden;">
-                                        <img src="./Imagenes/comunicate con nosotros.png" style="width: 100%; height: 100%; object-fit: cover;" class="img-fluid rounded-start" alt="Imagen de contacto">
-                                    </div>
-                                    <div class="col-lg-7">
-                                        <div class="card-body">
-                                        <h5 class="card-title">Comunicate con nosotros</h5>
-                                        <p class="card-text">Puedes comunicarte con nosotros para cualquier consulta a través de multiples canales que están disponibles para tí.</p>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
+            </a>
+            <a href="./Paginas/nosotros.html" class="cont-2">
+                <div class="descripcion2">
+                    <div class="descripcion20">
+                        <img src="./Imagenes/Comunicate con nosotros2.png" alt="">
                     </div>
-                    <div class="row">
-                        <div class="col-lg-12" style="height: 350px; overflow: hidden;">
-                            <div class="card mb-3"onclick="location.href='paginas/Marcas.html';" style="cursor: pointer;" >
-                                <div id="carouselCardImages" class="carousel slide mt-3" data-bs-ride="carousel">
-                                    <div class="carousel-inner">
-                                        <div class="carousel-item active">
-                                            <img src="./Imagenes/LOGO PRIME MEDICAL ING jlp.png" style="height:auto; object-fit:contain" class="d-block w-100" alt="Imagen 1">
-                                        </div>
-                                        <div class="carousel-item">
-                                            <img src="./Imagenes/LOGO PRIME MEDICAL ING jlp.png" style="height:auto; object-fit:contain" class="d-block w-100" alt="Imagen 2">
-                                        </div>
-                                    </div>
-                                </div>
-                                    <div class="card-body mb-4">
-                                        <h5 class="card-title">Marcas que representamos</h5>
-                                        <p class="card-text">Conoce las marcas de medicamentos y productos médicos que representamos, cada una con un compromiso hacia la calidad y la salud.</p></p>
-                                    </div>
-                                </div>
-                            </div>
+                    <div class="descripcion21" style="margin: 10px;">
+                        <div>
+                            <h4>Comunicate con nosotros</h4>
+                            <p>Puedes comunicarte con nosotros para cualquier consulta a través de multiples canales que están disponibles para tí.</p>
                         </div>
                     </div>
                 </div>
-            </div>
+            </a>
+            <a href="./Paginas/Marcas.html" class="cont-3">
+                <div class="descripcion3">
+                    <div id="carouselCardImages" class="carousel slide descripcion30" data-bs-ride="carousel" data-bs-pause="false">
+                        <div class="carousel-inner">
+                            <div class="carousel-item active">
+                                <img src="./Imagenes/LOGO PRIME MEDICAL ING jlp.png" style="height:auto; object-fit:contain" class="d-block w-100" alt="Imagen 1">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="./Imagenes/LOGO PRIME MEDICAL ING jlp.png" style="height:auto; object-fit:contain" class="d-block w-100" alt="Imagen 2">
+                            </div>
+                        </div>
+                    </div> 
+                    <div class="descripcion31">
+                        <h5>Marcas que representamos </h5>
+                        <p>Conoce las marcas de los productos médicos que representamos, cada una con un compromiso hacia la calidad y la salud.</p>
+                    </div>
+                </div>
+            </a>
         </section>
+
+        <style>
+            .grid-container {
+                display: grid;
+                grid-template-columns: 1fr 1fr;
+                grid-template-rows: 1fr 1fr;
+                gap: 20px;
+                padding: 0px;
+                margin-left: 50px;
+                margin-right: 50px;
+                max-height: 900px;
+                width: auto;
+            }
+
+            
+            .cont-1 {
+                position: relative;
+                grid-row: 1 / span 2;
+                grid-column: 1;
+                background-color: none;
+                background-image: url('./Imagenes/Probando.png');
+                background-size: contain;
+                background-repeat: no-repeat;
+                background-position: center;
+                border: 5px solid #004C6C;
+                border-radius: 10px;
+                box-sizing: border-box;
+                height: 620px;
+            }
+            .descripcion {
+                position: absolute;
+                bottom: 0;
+                background-color: rgba(255, 255, 255, 0.8);
+                padding: 20px;
+                border-radius: 10px;
+                text-align: left;
+                box-sizing: border-box;
+                width: 100%;
+            }
+            .cont-2 {
+                position: relative;
+                grid-row: 1;
+                grid-column: 2;
+                background-color: bisque;
+                border: 5px solid #004C6C;
+                border-radius: 10px;
+                box-sizing: border-box;
+                height: 300px;
+            }
+            .descripcion2 {
+                display: grid;
+                grid-template-columns: 1fr 1fr 1fr;
+                grid-template-rows: 1fr;
+                height: 300px;
+            }
+            .descripcion20 {
+                grid-column: 1;
+                grid-row: 1;
+                box-sizing: border-box;
+                height: 300px;
+            }
+            .descripcion20 img {
+                max-width: 290px;
+                width: auto;
+                display: block;
+                margin-left: 0;
+                margin-right: auto;
+                
+            }
+            .descripcion21 {
+                display: grid;
+                place-items: center;
+                grid-column: 2 / span 3;
+                grid-row: 1;
+                text-align: center;
+                vertical-align: middle;
+                box-sizing: border-box;
+            }
+            
+            .cont-3 {
+                position: relative;
+                grid-row: 2;
+                grid-column: 2;
+                background-size: contain;
+                background-repeat: no-repeat;
+                background-position: center;
+                border: 5px solid #004C6C;
+                border-radius: 10px;
+                box-sizing: border-box;
+                height: 300px;
+            }
+            .descripcion3 {
+                display: grid;
+                grid-template-rows: 1fr 1fr 1fr;
+                grid-template-columns: auto;
+                place-items: center;
+                border-radius: 10px;
+                text-align: center;
+                box-sizing: border-box;
+                width: 100%;
+                max-width: 100%;
+            }
+            .descripcion30 {
+                grid-row: 1 / span 2;
+                grid-column: 1;
+                width: 100%;
+                height: auto;
+            }
+            .descripcion31 {
+                grid-row: 3;
+                grid-column: 1;
+                text-align: left;
+                max-width: 100%;
+                padding: 5px;
+            }
+
+            /* ===== MEDIANAS (<1400px): cont-1 ocupa toda la fila superior ===== */
+            @media (max-width: 1400px) {
+                .grid-container {
+                    grid-template-columns: 1fr 1fr;
+                    grid-template-rows: 1fr 1fr;
+                    max-height: auto;
+                }
+                .cont-1 {
+                    grid-row: 1;
+                    grid-column: 1 / span 2;
+                    max-height: 600px;
+                }
+                .cont-2 {
+                    grid-row: 2;
+                    grid-column: 1;
+                    max-height: 300px;
+                }
+                .cont-3 {
+                    grid-row: 2;
+                    grid-column: 2;
+                    max-height: 300px;
+                }
+                .descripcion3 {
+                display: grid;
+                grid-template-rows: 1fr 1fr 1fr;
+                grid-template-columns: auto auto;
+                place-items: end;
+                border-radius: 10px;
+                text-align: center;
+                box-sizing: border-box;
+                width: 100%;
+                }
+                .descripcion30 {
+                    grid-row: 1 / span 2;
+                    grid-column: 1;
+                    width: 100%;
+                    height: auto;
+                }
+                .descripcion31 {
+                    grid-row: 3;
+                    grid-column: 1;
+                    text-align: left;
+                    background-color: rgba(255, 255, 255, 0.8);
+                }
+            }
+            /* ===== PEQUEÑAS (<1038px): cont-1, cont-2 y cont-3 en una sola columna ===== */
+            @media (max-width: 1038px) {
+                .grid-container {
+                    grid-template-columns: 1fr;
+                    grid-template-rows: auto auto auto;
+                    height: auto;
+                }
+                .cont-1, .cont-2, .cont-3 {
+                    grid-column: 1;
+                    max-height: 300px;
+                }
+                .cont-1 {
+                    grid-row: 1;
+                    text-align: center;
+                }
+                .cont-2 {
+                    grid-row: 2;
+                }
+                .descripcion2 {
+                    display: grid;
+                    grid-template-columns: 1fr;
+                    grid-template-rows: auto auto;
+                    height: auto;
+                }
+                .descripcion20 {  /*descripcion20 y 21 estan superpuestos y la imagen deben ir como un background*/
+                    grid-column: 1;
+                    grid-row: 1;
+                    height: auto;
+                    background-color: rgba(255, 255, 255, 0.8);
+                }
+                .descripcion21 {
+                    grid-column: 1;
+                    grid-row: 1;
+                    background-color: rgba(255, 255, 255, 0.8);
+                }
+                .cont-3 {
+                    grid-row: 3;
+                }
+
+                .descripcion3 {
+                display: grid;
+                grid-template-rows: 1fr 1fr 1fr;
+                grid-template-columns: 1fr;
+                border-radius: 10px;
+                text-align: center;
+                box-sizing: border-box;
+                width: 100%;
+                }
+                .descripcion30 {
+                    grid-row: 1 / span 2;
+                    grid-column: 1;
+                    width: 100%;
+                    height: auto;
+                }
+                .descripcion31 {
+                    grid-row: 3;
+                    grid-column: 1;
+                    text-align: left;
+                    width: 100%;
+                    max-width: 100%;
+                }
+            }
+            /* ===== MUY PEQUEÑAS (<600px): contenedor con menos padding y margenes ===== */
+            @media (max-width: 600px) {
+                .grid-container {
+                    padding: 10px;
+                    margin-left: 10px;
+                    margin-right: 10px;
+                }
+                .cont-1, .cont-2, .cont-3 {
+                    max-height: auto;
+                }
+                .descripcion20 img {
+                    max-width: 100%;
+                    width: 290px;
+                    display: block;
+                    margin-left: 0;
+                    margin-right: auto;
+                }
+            }
+        </style>
+
         <section id="productos"></section>
-        <Section class="container-fluid mt-5 mb-5 SeccionProductos">
-            <section class="container mt-5 mb-5 ">
-                <div class="row">
-                    <div class="col-md-12 mb-5 ">
+        <Section class="container-fluid mt-5 mb-0 SeccionProductos">
+            <div class="container my-5 ">
+                <div class="row my-2">
+                    <div class="col-md-12 mb-5">
                         <h2>Productos</h2>
                     </div>
                     <div class="col-md-4 text-center mb-4">
-                        <a href="./Paginas/productos.html" class="uno"><i class="fa-solid fa-stethoscope ImageIcon uno"></i></a>
-                        <h4>Equipos Médicos</h4>  
+                        <a href="./Paginas/productos.html" class="uno"><i class="fa-solid fa-earth-americas ImageIcon uno "></i></a>
+                        <h4>Todos</h4>  
                     </div>
                     <div class="col-md-4 text-center mb-4">
-                        <i class="fa-solid fa-band-aid ImageIcon uno"></i>
-                        <h4>Material Gastables</h4>
-                    </div>
-                    <div class="col-md-4 text-center mb-4">
-                        <a href="./Paginas/productos.html#inyectables"><i class="fa-solid fa-bottle-droplet ImageIcon uno"></i></a>
-                        <h4>Medicamentos Inyectables</h4>
-                    </div>
-                </div>
-                <div class="row">
-                    <div class="col-md-4 text-center mb-5">
-                        <a href="./Paginas/productos.html#tabletas"><i class="fa-solid fa-pills ImageIcon uno"></i></a>
+                        <a href="./Paginas/productos.html#tabletas"><i class="fa-solid fa-tablets ImageIcon"></i></a>
                         <h4>Medicamentos Tabletas</h4>  
                     </div>
                     <div class="col-md-4 text-center mb-4">
-                        <i class="fa-solid fa-syringe ImageIcon uno"></i>
-                        <h4>Asépticos de Cirugías</h4>
-                    </div>
-                    <div class="col-md-4 text-center mb-4">
-                        <i class="fa-solid fa-flask ImageIcon uno"></i>
+                        <a href="./Paginas/productos.html#jarabes"><i class="fa-solid fa-flask ImageIcon"></i></a>
                         <h4>Jarabes y Suspenciones</h4>
                     </div>
                 </div>
-                <div class="row">
-                    <div class="col-md-4 text-center mb-5">
-                        <img src="./Imagenes/cream.png" alt="Cremas" width="100px" class="d-block mx-auto mb-0 mt-0 uno"><br>
+                <div class="row my-2"> 
+                    <div class="col-md-4 text-center mb-4">
+                        <a href="./Paginas/productos.html#inyectables"><i class="fa-solid fa-bottle-droplet ImageIcon"></i></a>
+                        <h4>Medicamentos Inyectables</h4>
+                    </div>
+                    <div class="col-md-4 text-center mb-4">
+                        <a href="./Paginas/productos.html#cremas"><img src="../Imagenes/cream.png" alt="Cremas" width="100px" class="d-block mx-auto mb-0 mt-0 ImageIcon"></a>
                         <h4>Cremas</h4>  
                     </div>
                     <div class="col-md-4 text-center mb-4">
-                        <i class="fa-solid fa-baby ImageIcon uno"></i>
-                        <h4>Planificación Familiar</h4>
-                    </div>
-                    <div class="col-md-4 text-center mb-4">
-                        <i class="fa-solid fa-house-medical ImageIcon uno"></i>
-                        <h4>Todos</h4>
+                        <a href="./Paginas/productos.html#asepticos"><i class="fa-solid fa-pump-medical ImageIcon"></i></a>
+                        <h4>Asépticos</h4>
                     </div>
                 </div>
-            </section>
+                <div class="row my-2">
+                    <div class="col-md-4 text-center mb-4">
+                        <a href="./Paginas/productos.html#materialGastable"><i class="fa-solid fa-band-aid ImageIcon"></i></a>
+                        <h4>Material Gastable</h4>
+                    </div>
+                    <div class="col-md-4 text-center mb-4">
+                        <a href="./Paginas/productos.html#equiposMedicos"><i class="fa-solid fa-stethoscope ImageIcon"></i></a>
+                        <h4>Equipos Médicos</h4>  
+                    </div>
+                    <div class="col-md-4 text-center mb-4">
+                        <a href="./Paginas/productos.html#Supositorios"><i class="fa-solid fa-capsules ImageIcon"></i></a>
+                        <h4>Supositorios</h4>
+                    </div>
+                </div>
+            </div>
         </Section>
+
         <section class="container mt-5 mb-5">
             <div class="row mt-5 mb-5">
                 <div class="col-md-6 text-center mb-4">
@@ -202,14 +436,14 @@
                 <div class="col-md-6 text-center mb-4">
                     <img src="./Imagenes/Identificador logomarca.PNG" alt="Logo" width="150" class="d-block mx-auto mb-3 mt-0">
                     <h2>¿Cómo comprar?</h2>
-                    <p>Visita nuestra sección de productos y elige lo que necesites.</p>
+                    <p>Visita nuestra sección de productos, elige lo que necesites y contactanos.</p>
                 </div>
             </div>
             <div class="row">
                 <div class="col-md-4 text-center mb-4">
                     <img src="./Imagenes/Identificador logomarca.PNG" alt="Logo" width="150" class="d-block mx-auto mb-3 mt-0">
                     <h2>¿Quiénes somos?</h2>
-                    <p>En IDEMESA nos dedicamos a la importación y distribución de medicamentos y productos médicos.</p>
+                    <p>En IDEMESA nos dedicamos a ofrecerte todo tipo de medicamentos y productos médicos para tu salud.</p>
                 </div>
                 <div class="col-md-4 text-center mb-4">
                     <img src="./Imagenes/Identificador logomarca.PNG" alt="Logo" width="150" class="d-block mx-auto mb-3 mt-0">
@@ -226,15 +460,12 @@
     </main>
 
 
-
     <footer class="text-center text-lg-start bg-light text-white"> 
-    <div class="text-center p-4 barraFooter">      
-        <img src="./Imagenes/Logo cortado.PNG" alt="" width="250" class="d-block mx-auto mb-3 mt-0">
-        <p>© 2025 IDEMESA. Todos los derechos reservados.</p>
-            <a class="btn btn-floating" href="#!" role="button"><i class="fab fa-facebook-f"></i></a>
-            <a class="btn btn-floating" href="#!" role="button"><i class="fab fa-twitter"></i></a>
-            <a class="btn btn-floating" href="#!" role="button"><i class="fab fa-google"></i></a>
-            <a class="btn btn-floating" href="#!" role="button"><i class="fab fa-instagram"></i></a>
+        <div class="text-center p-4 barraFooter">      
+            <a class="btn btn-floating" href="https://www.facebook.com/idemesa.srl" role="button"><i class="fab fa-facebook-f"></i></a>
+            <a class="btn btn-floating" href="https://www.instagram.com/idemesasrl/" target="_blank" rel="noopener noreferrer" role="button"><i class="fab fa-instagram"></i></a>
+            <a class="btn btn-floating" href="https://wa.me/18095384656" role="button"><i class="fa-brands fa-whatsapp"></i></a>
+            <p>Todos los derechos reservados <br>© 2025 IDEMESA</p>
         </div>
     </footer>
 
@@ -245,7 +476,6 @@
     <!-- Botón flotante de WhatsApp -->
 
     <!-- Bootstrap scripts inicia -->
-
     <script
     src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
     integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"

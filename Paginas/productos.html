@@ -20,7 +20,7 @@
     <!-- Barra de Nav inicia -->
     <nav class="navbar navbar-expand-md navbar-dark bg-white sticky-top mt-4">
         <div class="container-fluid">
-            <a class="navbar-brand" href="./index.html">
+            <a class="navbar-brand" href="../index.html">
                 <img src="../Imagenes/Identificador logomarca.PNG" alt="Logo" width="80"></a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#collapsibleNavbar">
                 <span class="navbar-toggler-icon"></span>
@@ -50,7 +50,7 @@
 
     <main>
 
-        <section class="container-fluid">
+        <section class="container-fluid" id="arriba">
             <div class="row">
                 <div class="barra text-center p-3 mt-4 text-white">
                     <img src="../Imagenes/Identificador logomarca.PNG" alt="Logo" width="150" class="d-block mx-auto mt-0">
@@ -60,169 +60,60 @@
             </div>
         </section>
 
-        <Section class="container-fluid mt-0 mb-5 SeccionProductos" id="productos">
-            <div class="container mb-5 ">
-                <div class="row">
+        <Section class="container-fluid mt-0 mb-0 SeccionProductos" id="productos">
+            <div class="container my-5 ">
+                <div class="row my-2">
                     <div class="col-md-12 mb-5 ">
                         <h2>Productos</h2>
                     </div>
                     <div class="col-md-4 text-center mb-4">
-                        <i class="fa-solid fa-stethoscope ImageIcon"></i>
-                        <h4>Equipos Médicos</h4>  
+                        <a href="#tabletas"><i class="fa-solid fa-tablets ImageIcon"></i></a>
+                        <h4>Medicamentos Tabletas</h4>  
                     </div>
                     <div class="col-md-4 text-center mb-4">
-                        <i class="fa-solid fa-band-aid ImageIcon"></i>
-                        <h4>Material Gastables</h4>
+                        <a href="#jarabes"><i class="fa-solid fa-flask ImageIcon"></i></a>
+                        <h4>Jarabes y Suspenciones</h4>
                     </div>
                     <div class="col-md-4 text-center mb-4">
                         <a href="#inyectables"><i class="fa-solid fa-bottle-droplet ImageIcon"></i></a>
                         <h4>Medicamentos Inyectables</h4>
                     </div>
                 </div>
-                <div class="row">
-                    <div class="col-md-4 text-center mb-5">
-                        <a href="#tabletas"><i class="fa-solid fa-pills ImageIcon"></i></a>
-                        <h4>Medicamentos Tabletas</h4>  
-                    </div>
+                <div class="row my-2"> 
                     <div class="col-md-4 text-center mb-4">
-                        <i class="fa-solid fa-syringe ImageIcon"></i>
-                        <h4>Asépticos de Cirugías</h4>
-                    </div>
-                    <div class="col-md-4 text-center mb-4">
-                        <i class="fa-solid fa-flask ImageIcon"></i>
-                        <h4>Jarabes y Suspenciones</h4>
-                    </div>
-                </div>
-                <div class="row">
-                    <div class="col-md-4 text-center mb-5">
-                        <img src="../Imagenes/cream.png" alt="Cremas" width="100px" class="d-block mx-auto mb-0 mt-0 ImageIcon"><br>
+                        <a href="#cremas"><img src="../Imagenes/cream.png" alt="Cremas" width="100px" class="d-block mx-auto mb-0 mt-0 ImageIcon"></a>
                         <h4>Cremas</h4>  
                     </div>
                     <div class="col-md-4 text-center mb-4">
-                        <i class="fa-solid fa-baby ImageIcon uno"></i>
-                        <h4>Planificación Familiar</h4>
+                        <a href="#asepticos"><i class="fa-solid fa-pump-medical ImageIcon"></i></a>
+                        <h4>Asépticos</h4>
                     </div>
                     <div class="col-md-4 text-center mb-4">
-                        <i class="fa-solid fa-house-medical ImageIcon uno"></i>
-                        <h4>Todos</h4>
+                        <a href="#materialGastable"><i class="fa-solid fa-band-aid ImageIcon"></i></a>
+                        <h4>Material Gastable</h4>
+                    </div>
+                </div>
+                <div class="row my-2">
+                    <div class="col-md-4 text-center mb-4">
+                        <a href="#equiposMedicos"><i class="fa-solid fa-stethoscope ImageIcon"></i></a>
+                        <h4>Equipos Médicos</h4>  
+                    </div>
+                    <div class="col-md-4 text-center mb-4">
+                        <a href="#Supositorios"><i class="fa-solid fa-capsules ImageIcon"></i></a>
+                        <h4>Supositorios</h4>
                     </div>
                 </div>
             </div>
         </Section>
-        <div id="inyectables" style="height: 30px;"></div>
-        <section class="container mt-5 mb-5">
-            <h2 class="mb-4">Inyectables</h2>
-            <div class="row g-4">
-                <div class="col-md-6 mb-5">
-                    <h4 class="abecedario">A</h4>
-                    <ul class="list-group">
-                        <li class="list-group-item">ACIDO ASCORBICO 1 GR / VIAL (VITAMINA C)</li>
-                        <li class="list-group-item">ACICLOVIR 250 MG VIAL (POLVO PARA INFUSION INTRAVENOSA)</li>
-                        <li class="list-group-item">ADRENALINA 1 MG/2ML</li>
-                        <li class="list-group-item">AGUA DESTILADA 5 ML Y 10 ML</li>
-                        <li class="list-group-item">ALBUTEROL AMP PARA NEBULIZAR</li>
-                        <li class="list-group-item">AMPICILINA 1 GR / VIAL</li>
-                    </ul>
-                </div>
-                <div class="col-md-6 mb-5">
-                    <h4 class="abecedario">B - C</h4>
-                    <ul class="list-group">
-                        <li class="list-group-item">BICARBONATO DE SODIO 1 GR. / 10 ML</li>
-                        <li class="list-group-item">CEFTRIAXONA 1 G / VIAL</li>
-                        <li class="list-group-item">CIPROFLOXACINA INFUSION 200MG / 100ML</li>
-                        <li class="list-group-item">CITICOLINA 500MG / 2ML</li>
-                        <li class="list-group-item">CLINDAMICINA 600 MG/ 4 ML AMP</li>
-                        <li class="list-group-item">CLONIXINATO DE LISINA 200 MG / 4 ML</li>
-                        <li class="list-group-item">CLORFENIDRAMINE 10 ML </li>
-                        <li class="list-group-item">CLORPROMAZINA 50 MG / 2 ML</li>
-                        <li class="list-group-item">CLORURO DE CALCIO 10% / 10 ML</li>
-                        <li class="list-group-item">CLORURO DE POTASIO 2GR / 10 ML</li>
-                    </ul>    
-                </div>
-            </div>
 
-            <div class="row g-4 mt-3">
-                <div class="col-md-6 mb-5">
-                    <h4 class="abecedario">C - D</h4>
-                    <ul class="list-group">
-                        <li class="list-group-item">CLORURO DE SODIO 20% / 10 ML</li>
-                        <li class="list-group-item">COMPLEJO B 10 ML / VIAL</li>
-                        <li class="list-group-item">DEXAMETASONA 4 MG / 1ML</li>
-                        <li class="list-group-item">DEXTROSA AL 50 % DE 20 ML</li>
-                        <li class="list-group-item">DICLOFENAC SODICO 75 MG / 3 ML</li>
-                        <li class="list-group-item">DICLOXACILINA 500MG / VIAL</li>
-                        <li class="list-group-item">DIFENHIDRAMINA 20 ML / 2 ML</li>
-                        <li class="list-group-item">DIGOXINA 0.50 MG / 2 ML</li>
-                        <li class="list-group-item">DIMENHIDRINATO 50 MG / 1 ML (DRAMIDOM)</li>
-                        <li class="list-group-item">DIPIRONA 1 GR / 2 ML</li>
-                    </ul>    
-                </div>
-                <div class="col-md-6 mb-5">
-                    <h4 class="abecedario">D - E</h4>
-                    <ul class="list-group">
-                        <li class="list-group-item">DOBUTAMINA 250MG / 5 ML</li>
-                        <li class="list-group-item">DOPAMINA INY 200MG /  5ML</li>
-                        <li class="list-group-item">DOPAMINA INY 40 MG / 5 ML AMP</li>
-                        <li class="list-group-item">ENOXAPARINA  40 MG/ 0.4 ML AMP</li>
-                        <li class="list-group-item">EPAMIN 100 MG / 2 ML</li>
-                        <li class="list-group-item">ERGONOVINA 0.2 MG / ML</li>
-                        <li class="list-group-item">ETAMSILATO 500 MG (DICYNONE) PARA EL SANGRADO</li>
-                    </ul>    
-                </div>
-            </div>
+        <!-- Marquee -->
+        <a href="./Marcas.html">
+            <marquee behavior="scroll" direction="left" scrollamount="8" style="font-size: 24px; color: white; background: #0074D9; padding: 10px; margin-top: 0; font-weight: bold;">
+        🚀 ¡Visita nuestra variedad de productos de la marca PRIME MEDICAL y PRIME SUTURES! Suturas quirúrgicas, guantes, sondas y más.. 🧵</marquee>
+        </a>
+        <!-- Marquee -->
 
-            <div class="row g-4 mt-3">
-                <div class="col-md-6 mb-5">
-                    <h4 class="abecedario">F - G</h4>
-                    <ul class="list-group">
-                        <li class="list-group-item">FENITOINA 250MG / 5ML</li>
-                        <li class="list-group-item">FLUCONAZOL INFUSION 200MG / 100 ML</li>
-                        <li class="list-group-item">FLUFENAZINA 25MG / 1 ML</li>
-                        <li class="list-group-item">FUROSEMIDA 20 MG / 2 ML</li>
-                        <li class="list-group-item">GENTAMICINA 80 MG / 2 ML</li>
-                        <li class="list-group-item">GLUCONATO DE CALCIO 1GR / 10 ML</li>
-                    </ul>    
-                </div>
-                <div class="col-md-6 mb-5">
-                    <h4 class="abecedario">H - I</h4>
-                    <ul class="list-group">
-                        <li class="list-group-item">HALOPERIDOL 5MG / 1ML</li>
-                        <li class="list-group-item">HEPARINA 5,000 UI VIAL 10 ML</li>
-                        <li class="list-group-item">HIDRALAZINA 20 MG/ 2 ML</li>
-                        <li class="list-group-item">HIDROCORTIZONA 100 MG / VIAL</li>
-                        <li class="list-group-item">IPATROPIO AMP PARA NEBULIZAR</li>
-                    </ul>    
-                </div>
-            </div>
-
-            <div class="row g-4 mt-3">
-                <div class="col-md-6 mb-5">
-                    <h4 class="abecedario">K - L</h4>
-                    <ul class="list-group">
-                        <li class="list-group-item">KETOPROFENO 100MG / 2ML</li>
-                        <li class="list-group-item">KETOROLACO 30 MG / VIAL</li>
-                        <li class="list-group-item">KETOROLACO 60 MG / VIAL</li>
-                        <li class="list-group-item">LEVETIRACETAM 500 MG/ 5 ML AMP</li>
-                        <li class="list-group-item">LEVOSULPIRIDA 25 MG/2 ML ( DISLEP)</li>
-                        <li class="list-group-item">LIDOCAINA 2% S/ EPINEFRINA 50 ML</li>
-                        <li class="list-group-item">LINEZOLIL INFUSION 600MG / 300ML</li>
-                    </ul>    
-                </div>
-                <div class="col-md-6 mb-5">
-                    <h4 class="abecedario">M - N</h4>
-                    <ul class="list-group">
-                        <li class="list-group-item">MEROPENEM 1GR /VIAL</li>
-                        <li class="list-group-item">MEROPENEM 500MG /VIAL</li>
-                        <li class="list-group-item">METAMIZOL 1 GR./ 2 ML AMP</li>
-                        <li class="list-group-item">METOCLOPRAMIDA 10MG / 2 ML AMPOLLA</li>
-                        <li class="list-group-item">METRONIDAZOL INFUSION 500 MG / 100 ML</li>
-                        <li class="list-group-item">NARBUFINA 10MG / 1ML</li>
-                        <li class="list-group-item">N-BUTIL BROMURO DE HIOSCINA AMP. 20 MG / 1 ML</li>
-                        <li class="list-group-item">NORADRENALINA 1 GR. / 2 ML AMP</li>
-                    </ul>    
-                </div>
-        </section>
-
+        <!-- *** TABLETAS***-->
         <div id="tabletas" style="height: 30px;"></div>
         <section class="container mt-5 mb-5">
             <h2 class="mb-4">Tabletas y Capsulas</h2>
@@ -349,30 +240,775 @@
                     </ul>    
                 </div>
         </section>
-            
+        <!-- *** JARABE Y SUSPENCIONES***-->
+        <div id="jarabes" style="height: 30px;"></div>
+        <section class="container mt-5 mb-5">
+            <h2 class="mb-4">Jarabes y Suspenciones</h2>
+            <div class="row g-4">
+                <div class="col-md-6 mb-5">
+                    <h4 class="abecedario">A</h4>
+                    <ul class="list-group">
+                        <li class="list-group-item">ACETAMINOFEN EN SUPOSITORIOS</li>
+                        <li class="list-group-item">ACETAMINOFEN GOTA 15 ML</li>
+                        <li class="list-group-item">ACETAMINOFEN JARABE 60 ML</li>
+                        <li class="list-group-item">ACETAMINOFEN 125 MG/ 5 ML JARABE 120 ML</li>
+                        <li class="list-group-item">ACIDO FOLICO JARABE 60 ML Y 120 ML</li>
+                        <li class="list-group-item">ACIDO VALPROICO 200 MG/ML (FRAS 40 ML+JERINGA DOSIFICA)</li>
+                        <li class="list-group-item">AGUA MINERAL EN GALON</li>
+                        <li class="list-group-item">ALBENDAZOL 200 MG/5 ML SUSPENSION 100 ML</li>
+                        <li class="list-group-item">ALBENDAZOL SUSPENSION 400 MG / 10 ML</li>
+                        <li class="list-group-item">AMBROXOL + CLEMBUTEROL 120 ML JARABE</li>
+                    </ul>
+                </div>
+                <div class="col-md-6 mb-5">
+                    <h4 class="abecedario">A</h4>
+                    <ul class="list-group">
+                        <li class="list-group-item">AMBROXOL JARABE 120 ML</li>
+                        <li class="list-group-item">AMOXICILINA + AMBROXOL 120 ML JARABE</li>
+                        <li class="list-group-item">AMOXICILINA 250 MG + ACIDO CLAVULANICO</li>
+                        <li class="list-group-item">AMOXICILINA 250 MG SUSPENSION</li>
+                        <li class="list-group-item">AMPICILINA 250 MG SUSPENSION</li>
+                        <li class="list-group-item">ANTIACIDO JARABE</li>
+                        <li class="list-group-item">ANTIACIDO ORAL SUSPENSION 200 ML </li>
+                        <li class="list-group-item">ANTIACIDO SUSPENSION</li>
+                        <li class="list-group-item">ANTIGRIPAL JARABE 120 ML</li>
+                        <li class="list-group-item">AZITROMICINA SUSPENSION POLVO 30 ML</li>
+                    </ul>    
+                </div>
+            </div>
 
+            <div class="row g-4 mt-3">
+                <div class="col-md-6 mb-5">
+                    <h4 class="abecedario">B - C</h4>
+                    <ul class="list-group">
+                        <li class="list-group-item">BROMHEXINA JARABE 120 ML</li>
+                        <li class="list-group-item">CEFALEXINA SUSPENSION 250 MG</li>
+                        <li class="list-group-item">CETIRIZINA JARABE 60 ML</li>
+                        <li class="list-group-item">CLORANFENICOL OFTALMICO GOTAS</li>
+                        <li class="list-group-item">CLORANFENICOL OFTALMICO PERLAS</li>
+                        <li class="list-group-item">CLOTRIMAZOL + NISTATINA OVULOS</li>
+                        <li class="list-group-item">CLOTRIMAZOL OVULOS</li>
+                        <li class="list-group-item">CLOTRIMAZOL SOLUCION FRASCO 20 ML</li>
+                        <li class="list-group-item">COMPLEJO B + HIERRO JARABE 120 ML</li>
+                        <li class="list-group-item">COMPLEJO B JARABE 120 ML Y 240 ML</li>
+                    </ul>    
+                </div>
+                <div class="col-md-6 mb-5">
+                    <h4 class="abecedario">D</h4>
+                    <ul class="list-group">
+                        <li class="list-group-item">DICLOFENAC GOTAS 15 ML</li>
+                        <li class="list-group-item">DICLOFENAC SUSPENSION 120 ML</li>
+                        <li class="list-group-item">DICLOXACILINA 250 MG SUSPENSION</li>
+                        <li class="list-group-item">DIFENHIDRAMINA 12.5 MG/5 ML JARABE 120 ML</li>
+                        <li class="list-group-item">DIMENHIDRINATO JARABE 120 ML</li>
+                        <li class="list-group-item">DRAMIDOM 12.5 MG / 120 ML JARABE</li>
+                        <li class="list-group-item">DRAMIDOM 50 MG SUPOSITORIO</li>
+                        <li class="list-group-item">DRAMIDON 25 MG SUPOSITORIO PEDIATRICO</li>
+                    </ul>    
+                </div>
+            </div>
         
+            <div class="row g-4 mt-3">
+                <div class="col-md-6 mb-5">
+                    <h4 class="abecedario">E - F</h4>
+                    <ul class="list-group">
+                        <li class="list-group-item">ELIXIL ANTIESPAMODICO 60 ML</li>
+                        <li class="list-group-item">EMULSION HIGADO DE BACALAO 120 ML</li>
+                        <li class="list-group-item">ERITROMICINA SUSPENSION 250 MG</li>
+                        <li class="list-group-item">EXTRACTO DE MALTA 8 ONZA</li>
+                        <li class="list-group-item">FENDRAMIN 120 ML JARABE</li>
+                        <li class="list-group-item">FENOBARBITAL JARABE (CONTROLADO)</li>
+                        <li class="list-group-item">FISIOLIN GOTAS NASALES FRASCO 15 ML</li>
+                        <li class="list-group-item">FOSFOMICINA SUSPENSION 250 MG/ 60 ML</li>
+                    </ul>    
+                </div>
+                <div class="col-md-6 mb-5">
+                    <h4 class="abecedario">G - H</h4>
+                    <ul class="list-group">
+                        <li class="list-group-item">GOMENOL JARABE</li>
+                        <li class="list-group-item">GOTAS NASALES</li>
+                        <li class="list-group-item">GOTAS OFTALMICAS</li>
+                        <li class="list-group-item">GOTAS OTICAS</li>
+                        <li class="list-group-item">HALOPERIDOL GOTAS</li>
+                        <li class="list-group-item">HIERRO VITAMINADO JARABE 120 ML</li>
+                    </ul>    
+                </div>
+            </div>
+
+            <div class="row g-4 mt-3">
+                <div class="col-md-6 mb-5">
+                    <h4 class="abecedario">I - L</h4>
+                    <ul class="list-group">
+                        <li class="list-group-item">IBUPROFEN JARABE 60 ML</li>
+                        <li class="list-group-item">IBUPROFEN SUSPENSION 120 ML</li>
+                        <li class="list-group-item">JARABE NATURAL 240 ML</li>
+                        <li class="list-group-item">KETOCONAZOL OVULOS</li>
+                        <li class="list-group-item">LECHE MAGNESIA FRASCO 60 ML , 120 ML , 360 ML/li>
+                        <li class="list-group-item">LOPERAMIDA GOTA 15 ML</li>
+                        <li class="list-group-item">LORATADINA SOLUCION ORAL 60 ML</li>
+                    </ul>    
+                </div>
+                <div class="col-md-6 mb-5">
+                    <h4 class="abecedario">M - N</h4>
+                    <ul class="list-group">
+                        <li class="list-group-item">MEBENDAZOL SUSPENSION 30 ML</li>
+                        <li class="list-group-item">METRONIDAZOL + NISTATINA OVULOS</li>
+                        <li class="list-group-item">METRONIDAZOL OVULOS</li>
+                        <li class="list-group-item">METRONIDAZOL SUSPENSION 250 MG / 120 ML</li>
+                        <li class="list-group-item">MULTIVITAMINICO GOTA PEDIATRICO 30 ML</li>
+                        <li class="list-group-item">MULTIVITAMINICO JARABE 120 ML</li>
+                        <li class="list-group-item">NISTATINA SUSPENSION 30 ML</li>
+                    </ul>    
+                </div>
+            </div>
+
+            <div class="row g-4 mt-3">
+                <div class="col-md-6 mb-5">
+                    <h4 class="abecedario">P - S</h4>
+                    <ul class="list-group">
+                        <li class="list-group-item">PINO BLANCO JARABE 120 ML</li>
+                        <li class="list-group-item">PIPERAZINA JARABE 120 ML</li>
+                        <li class="list-group-item">SALBUTAMOL INHALADOR 17 GR.</li>
+                        <li class="list-group-item">SALBUTAMOL JARABE 120 ML Y 60 ML</li>
+                        <li class="list-group-item">SECNIDAZOL SUSPENSION 30 ML </li>
+                        <li class="list-group-item">SULFATO FERROSO JARABE 120 ML</li>
+                    </ul>    
+                </div>
+                <div class="col-md-6 mb-5">
+                    <h4 class="abecedario">T</h4>
+                    <ul class="list-group">
+                        <li class="list-group-item">TEOFILINA JARABE 120 ML</li>
+                        <li class="list-group-item">TRIMETOPRIN SULFA  SUSPENSION 120 ML Y 60 ML</li>
+                    </ul>    
+                </div>
+            </div>
+        </section>
+
+        <!-- *** INYECTABLES***-->
+        <div id="inyectables" style="height: 30px;"></div>
+        <section class="container mt-5 mb-5">
+            <h2 class="mb-4">Inyectables</h2>
+            <div class="row g-4">
+                <div class="col-md-6 mb-5">
+                    <h4 class="abecedario">A</h4>
+                    <ul class="list-group">
+                        <li class="list-group-item">ACIDO ASCORBICO 1 GR / VIAL (VITAMINA C)</li>
+                        <li class="list-group-item">ACICLOVIR 250 MG VIAL (POLVO PARA INFUSION INTRAVENOSA)</li>
+                        <li class="list-group-item">ADRENALINA 1 MG/2ML</li>
+                        <li class="list-group-item">AGUA DESTILADA 5 ML Y 10 ML</li>
+                        <li class="list-group-item">ALBUTEROL AMP PARA NEBULIZAR</li>
+                        <li class="list-group-item">AMPICILINA 1 GR / VIAL</li>
+                    </ul>
+                </div>
+                <div class="col-md-6 mb-5">
+                    <h4 class="abecedario">B - C</h4>
+                    <ul class="list-group">
+                        <li class="list-group-item">BICARBONATO DE SODIO 1 GR. / 10 ML</li>
+                        <li class="list-group-item">CEFTRIAXONA 1 G / VIAL</li>
+                        <li class="list-group-item">CIPROFLOXACINA INFUSION 200MG / 100ML</li>
+                        <li class="list-group-item">CITICOLINA 500MG / 2ML</li>
+                        <li class="list-group-item">CLINDAMICINA 600 MG/ 4 ML AMP</li>
+                        <li class="list-group-item">CLONIXINATO DE LISINA 200 MG / 4 ML</li>
+                        <li class="list-group-item">CLORFENIDRAMINE 10 ML </li>
+                        <li class="list-group-item">CLORPROMAZINA 50 MG / 2 ML</li>
+                        <li class="list-group-item">CLORURO DE CALCIO 10% / 10 ML</li>
+                        <li class="list-group-item">CLORURO DE POTASIO 2GR / 10 ML</li>
+                    </ul>    
+                </div>
+            </div>
+
+            <div class="row g-4 mt-3">
+                <div class="col-md-6 mb-5">
+                    <h4 class="abecedario">C - D</h4>
+                    <ul class="list-group">
+                        <li class="list-group-item">CLORURO DE SODIO 20% / 10 ML</li>
+                        <li class="list-group-item">COMPLEJO B 10 ML / VIAL</li>
+                        <li class="list-group-item">DEXAMETASONA 4 MG / 1ML</li>
+                        <li class="list-group-item">DEXTROSA AL 50 % DE 20 ML</li>
+                        <li class="list-group-item">DICLOFENAC SODICO 75 MG / 3 ML</li>
+                        <li class="list-group-item">DICLOXACILINA 500MG / VIAL</li>
+                        <li class="list-group-item">DIFENHIDRAMINA 20 ML / 2 ML</li>
+                        <li class="list-group-item">DIGOXINA 0.50 MG / 2 ML</li>
+                        <li class="list-group-item">DIMENHIDRINATO 50 MG / 1 ML (DRAMIDOM)</li>
+                        <li class="list-group-item">DIPIRONA 1 GR / 2 ML</li>
+                    </ul>    
+                </div>
+                <div class="col-md-6 mb-5">
+                    <h4 class="abecedario">D - E</h4>
+                    <ul class="list-group">
+                        <li class="list-group-item">DOBUTAMINA 250MG / 5 ML</li>
+                        <li class="list-group-item">DOPAMINA INY 200MG /  5ML</li>
+                        <li class="list-group-item">DOPAMINA INY 40 MG / 5 ML AMP</li>
+                        <li class="list-group-item">ENOXAPARINA  40 MG/ 0.4 ML AMP</li>
+                        <li class="list-group-item">EPAMIN 100 MG / 2 ML</li>
+                        <li class="list-group-item">ERGONOVINA 0.2 MG / ML</li>
+                        <li class="list-group-item">ETAMSILATO 500 MG (DICYNONE) PARA EL SANGRADO</li>
+                    </ul>    
+                </div>
+            </div>
+
+            <div class="row g-4 mt-3">
+                <div class="col-md-6 mb-5">
+                    <h4 class="abecedario">F - G</h4>
+                    <ul class="list-group">
+                        <li class="list-group-item">FENITOINA 250MG / 5ML</li>
+                        <li class="list-group-item">FLUCONAZOL INFUSION 200MG / 100 ML</li>
+                        <li class="list-group-item">FLUFENAZINA 25MG / 1 ML</li>
+                        <li class="list-group-item">FUROSEMIDA 20 MG / 2 ML</li>
+                        <li class="list-group-item">GENTAMICINA 80 MG / 2 ML</li>
+                        <li class="list-group-item">GLUCONATO DE CALCIO 1GR / 10 ML</li>
+                    </ul>    
+                </div>
+                <div class="col-md-6 mb-5">
+                    <h4 class="abecedario">H - I</h4>
+                    <ul class="list-group">
+                        <li class="list-group-item">HALOPERIDOL 5MG / 1ML</li>
+                        <li class="list-group-item">HEPARINA 5,000 UI VIAL 10 ML</li>
+                        <li class="list-group-item">HIDRALAZINA 20 MG/ 2 ML</li>
+                        <li class="list-group-item">HIDROCORTIZONA 100 MG / VIAL</li>
+                        <li class="list-group-item">IPATROPIO AMP PARA NEBULIZAR</li>
+                    </ul>    
+                </div>
+            </div>
+
+            <div class="row g-4 mt-3">
+                <div class="col-md-6 mb-5">
+                    <h4 class="abecedario">K - L</h4>
+                    <ul class="list-group">
+                        <li class="list-group-item">KETOPROFENO 100MG / 2ML</li>
+                        <li class="list-group-item">KETOROLACO 30 MG / VIAL</li>
+                        <li class="list-group-item">KETOROLACO 60 MG / VIAL</li>
+                        <li class="list-group-item">LEVETIRACETAM 500 MG/ 5 ML AMP</li>
+                        <li class="list-group-item">LEVOSULPIRIDA 25 MG/2 ML ( DISLEP)</li>
+                        <li class="list-group-item">LIDOCAINA 2% S/ EPINEFRINA 50 ML</li>
+                        <li class="list-group-item">LINEZOLIL INFUSION 600MG / 300ML</li>
+                    </ul>    
+                </div>
+                <div class="col-md-6 mb-5">
+                    <h4 class="abecedario">M - N</h4>
+                    <ul class="list-group">
+                        <li class="list-group-item">MEROPENEM 1GR /VIAL</li>
+                        <li class="list-group-item">MEROPENEM 500MG /VIAL</li>
+                        <li class="list-group-item">METAMIZOL 1 GR./ 2 ML AMP</li>
+                        <li class="list-group-item">METOCLOPRAMIDA 10MG / 2 ML AMPOLLA</li>
+                        <li class="list-group-item">METRONIDAZOL INFUSION 500 MG / 100 ML</li>
+                        <li class="list-group-item">NARBUFINA 10MG / 1ML</li>
+                        <li class="list-group-item">N-BUTIL BROMURO DE HIOSCINA AMP. 20 MG / 1 ML</li>
+                        <li class="list-group-item">NORADRENALINA 1 GR. / 2 ML AMP</li>
+                    </ul>    
+                </div>
+        </section>
+
+        <!-- *** CREMAS***-->
+        <div id="cremas" style="height: 30px;"></div>
+        <section class="container mt-5 mb-5">
+            <h2 class="mb-4">Cremas</h2>
+            <div class="row g-4">
+                <div class="col-md-6 mb-5">
+                    <h4 class="abecedario">A - H</h4>
+                    <ul class="list-group">
+                        <li class="list-group-item">ACICLOVIR CREMA 15 GR</li>
+                        <li class="list-group-item">CLOTRIMAZOL CREMA</li>
+                        <li class="list-group-item">DICLOFENAC GEL</li>
+                        <li class="list-group-item">GENTAMICINA + BETAMETASONA + CLOTRIMAZOL CREMA</li>
+                        <li class="list-group-item">GENTAMICINA CREMA 1 % 20 GR</li>
+                        <li class="list-group-item">HIDROCORTIZONA CREMA 1 % 15 GR</li>
+                    </ul>
+                </div>
+                <div class="col-md-6 mb-5">
+                    <h4 class="abecedario">K - U</h4>
+                    <ul class="list-group">
+                        <li class="list-group-item">KETOCONAZOL CREMA 2 % 20 GR</li>
+                        <li class="list-group-item">NITROFURAZONA 0.2 % 30 GR .CREMA Y EN TARRO</li>
+                        <li class="list-group-item">POMADA AID</li>
+                        <li class="list-group-item">POMADA BELLADONA</li>
+                        <li class="list-group-item">POMADA CALLICIN</li>
+                        <li class="list-group-item">POMADA SUFACILINA</li>
+                        <li class="list-group-item">UNGÜENTO AID</li>
+                    </ul>    
+                </div>
+            </div>
+        </section>
+
+        <!-- *** ASEPTICOS***-->
+        <div id="asepticos" style="height: 30px;"></div>
+        <section class="container mt-5 mb-5">
+            <h2 class="mb-4">Asépticos</h2>
+            <div class="row g-4">
+                <div class="col-md-6 mb-5">
+                    <h4 class="abecedario">A</h4>
+                    <ul class="list-group">
+                        <li class="list-group-item">ACETONA GALON</li>
+                        <li class="list-group-item">ACIDO BORICO 2 ONZA Y 4 ONZA</li>
+                        <li class="list-group-item">AGUA DESTILADA GALON</li>
+                        <li class="list-group-item">AGUA OXIGENADA GALON</li>
+                        <li class="list-group-item">ALCOHOL AL 70 % GALON</li>
+                        <li class="list-group-item">ALCOHOL ETILICO 95 % GALON</li>
+                    </ul>
+                </div>
+                <div class="col-md-6 mb-5">
+                    <h4 class="abecedario">D - F</h4>
+                    <ul class="list-group">
+                        <li class="list-group-item">DESODINE SOLUCION GALON</li>
+                        <li class="list-group-item">ENJUAGUE BUCAL</li>
+                        <li class="list-group-item">FORMOL GALON</li>
+                    </ul>    
+                </div>
+            </div>
+
+            <div class="row g-4">
+                <div class="col-md-6 mb-5">
+                    <h4 class="abecedario">J</h4>
+                    <ul class="list-group">
+                        <li class="list-group-item">JABON DE AVENA PASTA</li>
+                        <li class="list-group-item">JABON DE AZUFRE</li>
+                        <li class="list-group-item">JABON DE CASTILLA EN BARRA</li>
+                        <li class="list-group-item">JABON DE CASTILLA EN PASTA</li>
+                        <li class="list-group-item">JABON DE CLOTRIMAZOL PASTA</li>
+                        <li class="list-group-item">JABON DE CREOLINA PASTA</li>
+                        <li class="list-group-item">JABON DE KETOCONAZOL PASTA</li>
+                        <li class="list-group-item">JABON GERMICIDA AL 1 % Y AL 2 %</li>
+                        <li class="list-group-item">JABON LIQUIDO GALON</li>
+                    </ul>
+                </div>
+                <div class="col-md-6 mb-5">
+                    <h4 class="abecedario">L - V</h4>
+                    <ul class="list-group">
+                        <li class="list-group-item">LIMPIADOR DE MANOS ANTI-BACTERIAL</li>
+                        <li class="list-group-item">LOCION CALAMINA</li>
+                        <li class="list-group-item">LOCION LINDANO</li>
+                        <li class="list-group-item">UBRENAL 4 ONZA</li>
+                        <li class="list-group-item">VINAGRE BLANCO GALON</li>
+                    </ul>    
+                </div>
+            </div>
+        </section>
+
+        <!-- *** MATERIAL GASTABLE***-->
+        <div id="materialGastable" style="height: 30px;"></div>
+        <section class="container mt-5 mb-5">
+        <h2 class="mb-4">Material Gastable</h2>
+            <div class="row g-4">
+                <div class="col-md-6 mb-5">
+                    <h4 class="abecedario">A</h4>
+                    <ul class="list-group">
+                        <li class="list-group-item">AGUJA DE 10CC ENROCABLE</li>
+                        <li class="list-group-item">AGUJA METALICA REUSABLE</li>
+                        <li class="list-group-item">AGUJA PLASTICA DESECHABLE</li>
+                        <li class="list-group-item">ALGODÓN BOLITA FUNDA DE 100 PIEZAS</li>
+                        <li class="list-group-item">ALGODÓN PLANCHADO</li>
+                        <li class="list-group-item">ALGODÓN ROLLO 1 LB</li>
+                    </ul>
+                </div>
+
+                <!-- Grupo B -->
+                <div class="col-md-6 mb-5">
+                    <h4 class="abecedario">B</h4>
+                    <ul class="list-group">
+                        <li class="list-group-item">BAJA LENGUA</li>
+                        <li class="list-group-item">BAJANTE DE SANGRE</li>
+                        <li class="list-group-item">BAJANTE DE SUERO DESECHABLE</li>
+                        <li class="list-group-item">BATA ESTERILIZADA</li>
+                        <li class="list-group-item">BATA PARA CIRUJANO DESECHABLE</li>
+                        <li class="list-group-item">BATA PARA PACIENTES DESECHABLE</li>
+                        <li class="list-group-item">BRAZALETE DE ADULTO</li>
+                        <li class="list-group-item">BRAZALETE PEDIATRICO</li>
+                    </ul>
+                </div>
+            </div>
+
+            <!-- Grupo C -->
+            <div class="row g-4">
+                <div class="col-md-6 mb-5">
+                    <h4 class="abecedario">C</h4>
+                    <ul class="list-group">
+                        <li class="list-group-item">CANULA DE MAYO #00, #0, #1, #2, #3, #4</li>
+                        <li class="list-group-item">CANULA DE MAYO #8, #9, #12</li>
+                        <li class="list-group-item">CANULA DE OXIGENO ADULTO</li>
+                        <li class="list-group-item">CANULA DE OXIGENO PEDIATRICO</li>
+                        <li class="list-group-item">CATETER # 14, # 16, # 18, # 20, # 22, # 24</li>
+                        <li class="list-group-item">CATETER ESPIDURAL # 16, # 18</li>
+                        <li class="list-group-item">CEPILLO PARA CIRUGIA</li>
+                        <li class="list-group-item">CINTA AUTOCLAVE</li>
+                        <li class="list-group-item">CIRCUITO VENTILACION UNIVERSAL ADULTO</li>
+                        <li class="list-group-item">COLECTOR ORINA DE ADULTO</li>
+                    </ul>
+                </div>
+
+                <div class="col-md-6 mb-5">
+                    <h4 class="abecedario">C</h4>
+                    <ul class="list-group">
+                        <li class="list-group-item">COLECTOR ORINA PEDIATRICO</li>
+                        <li class="list-group-item">CONDONES</li>
+                        <li class="list-group-item">CUBO PARA DESECHOS CORTANTES</li>
+                        <li class="list-group-item">CUBREZAPATOS</li>
+                        <li class="list-group-item">CURITAS LARGAS Y REDONDAS</li>
+                    </ul>
+                </div>
+            </div>
+
+            <!-- Grupo D y E -->
+            <div class="row g-4">
+                <div class="col-md-6 mb-5">
+                    <h4 class="abecedario">D</h4>
+                    <ul class="list-group">
+                        <li class="list-group-item">DRENAJE QUIRURGICO PEQUEÑO</li>
+                    </ul>
+                </div>
+
+                <div class="col-md-6 mb-5">
+                    <h4 class="abecedario">E</h4>
+                    <ul class="list-group">
+                        <li class="list-group-item">ESPARADRAPO Z-O</li>
+                        <li class="list-group-item">ESPECULO VAGINAL S</li>
+                        <li class="list-group-item">ESPECULO VAGINAL M</li>
+                        <li class="list-group-item">ESPECULOS VAGINAL L</li>
+                    </ul>
+                </div>
+            </div>
+
+            <!-- Grupo G y H -->
+            <div class="row g-4">
+                <div class="col-md-6 mb-5">
+                    <h4 class="abecedario">G</h4>
+                    <ul class="list-group">
+                        <li class="list-group-item">GASA TIPO ALMOHADA 36X100</li>
+                        <li class="list-group-item">GEL DE SONOGRAFIA ( GALON DE 5 LITROS)</li>
+                        <li class="list-group-item">GEL PARA SONOGRAFIA</li>
+                        <li class="list-group-item">GORRO PARA CIRUJANO</li>
+                        <li class="list-group-item">GORRO PARA ENFERMERAS</li>
+                        <li class="list-group-item">GUANTES</li>
+                        <li class="list-group-item">GUANTES DESECHABLES DE LATEX L</li>
+                        <li class="list-group-item">GUANTES DESECHABLES DE LATEX M</li>
+                        <li class="list-group-item">GUANTES DESECHABLES DE LATEX S</li>
+                        <li class="list-group-item">GUANTES ESTERILES 7</li>
+                    </ul>
+                </div>
+
+                <div class="col-md-6 mb-5">
+                    <h4 class="abecedario">H</h4>
+                    <ul class="list-group">
+                        <li class="list-group-item">HILO CROMICO 0.0 UNIDAD</li>
+                        <li class="list-group-item">HILO CROMICO 1.0 UNIDAD</li>
+                        <li class="list-group-item">HILO CROMICO 2.0 UNIDAD</li>
+                        <li class="list-group-item">HILO CROMICO 3.0 UNIDAD</li>
+                        <li class="list-group-item">HILO CROMICO 4.0 UNIDAD</li>
+                        <li class="list-group-item">HILO CROMICO 5.0 UNIDAD</li>
+                        <li class="list-group-item">HILO CROMICO 6.0 UNIDAD</li>
+                        <li class="list-group-item">HILO MONOCRYL 0 C/36 90 CM AGUJA 36 MM 1/2 CURVE TAPER</li>
+                        <li class="list-group-item">HILO MONOCRYL 1 C/36 70 CM AGUJA 36 MM 1/2 CURVE TAPER</li>
+                        <li class="list-group-item">HILO MONOCRYL 2.0 C/36 70 CM AGUJA 36 MM 1/2 CURVE TAPER</li>
+                    </ul>
+                </div>
+            </div>
+
+            <!-- Grupo H (continuación) y J -->
+            <div class="row g-4">
+                <div class="col-md-6 mb-5">
+                    <h4 class="abecedario">H</h4>
+                    <ul class="list-group">
+                        <li class="list-group-item">HILO MONOCRYL 3.0 C/36 70 CM AGUJA 24 MM 3/8 REVERSE CUTTING</li>
+                        <li class="list-group-item">HILO MONOCRYL 4.0 C/36 70 CM AGUJA 19 MM 3/8 REVERSE CUTTING</li>
+                        <li class="list-group-item">HILO MONOCRYL 5.0 C/36 45 CM AGUJA 11 MM 3/8 REVERSE CUTTING</li>
+                        <li class="list-group-item">HILO NYLON 0.0 UNIDAD</li>
+                        <li class="list-group-item">HILO NYLON 1.0 UNIDAD</li>
+                        <li class="list-group-item">HILO NYLON 2.0 UNIDAD</li>
+                        <li class="list-group-item">HILO NYLON 3.0 UNIDAD</li>
+                        <li class="list-group-item">HILO NYLON 4.0 UNIDAD</li>
+                        <li class="list-group-item">HILO NYLON 5.0 UNIDAD</li>
+                        <li class="list-group-item">HILO NYLON 6.0 UNIDAD</li>
+                    </ul>
+                </div>
+
+                <div class="col-md-6 mb-5">
+                    <h4 class="abecedario">H</h4>
+                    <ul class="list-group">
+                        <li class="list-group-item">HILO PROLENE 0.0 UNIDAD</li>
+                        <li class="list-group-item">HILO PROLENE 1.0 UNIDAD</li>
+                        <li class="list-group-item">HILO PROLENE 2.0 UNIDAD</li>
+                        <li class="list-group-item">HILO PROLENE 3.0 UNIDAD</li>
+                        <li class="list-group-item">HILO PROLENE 4.0 UNIDAD</li>
+                        <li class="list-group-item">HILO PROLENE 5.0 UNIDAD</li>
+                        <li class="list-group-item">HILO PROLENE 6.0 UNIDAD</li>
+                        <li class="list-group-item">HILO SEDA 0.0 UNIDAD</li>
+                        <li class="list-group-item">HILO SEDA 1.0 UNIDAD</li>
+                        <li class="list-group-item">HILO SEDA 2.0 UNIDAD</li>
+                    </ul>
+                </div>
+            </div>
+
+            <!-- Grupo H (última parte) -->
+            <div class="row g-4">
+                <div class="col-md-6 mb-5">
+                    <h4 class="abecedario">H</h4>
+                    <ul class="list-group">
+                        <li class="list-group-item">HILO SEDA 3.0 UNIDAD</li>
+                        <li class="list-group-item">HILO SEDA 4.0 UNIDAD</li>
+                        <li class="list-group-item">HILO SEDA 5.0 UNIDAD</li>
+                        <li class="list-group-item">HILO SEDA 6.0 UNIDAD</li>
+                        <li class="list-group-item">HILO VICRYL 0.0 UNIDAD</li>
+                        <li class="list-group-item">HILO VICRYL 1.0 UNIDAD</li>
+                        <li class="list-group-item">HILO VICRYL 2.0 UNIDAD</li>
+                        <li class="list-group-item">HILO VICRYL 3.0 UNIDAD</li>
+                        <li class="list-group-item">HILO VICRYL 4.0 UNIDAD</li>
+                        <li class="list-group-item">HILO VICRYL 5.0 UNIDAD</li>
+                    </ul>
+                </div>
+
+                <div class="col-md-6 mb-5">
+                    <h4 class="abecedario">H</h4>
+                    <ul class="list-group">
+                        <li class="list-group-item">HILO VICRYL 6.0 UNIDAD</li>
+                        <li class="list-group-item">HILOS DE SUTURA QUIRURGICO</li>
+                        <li class="list-group-item">HILOS DE SUTURA QUIRURGICO</li>
+                    </ul>
+                </div>
+            </div>
+
+            <!-- Grupo J y M -->
+            <div class="row g-4">
+                <div class="col-md-6 mb-5">
+                    <h4 class="abecedario">J</h4>
+                    <ul class="list-group">
+                        <li class="list-group-item">JERINGA DE INSULINA 1 ML 29G X 1/2"</li>
+                        <li class="list-group-item">JERINGA ESTERIL DE 1 ML 27G X 1/2"</li>
+                        <li class="list-group-item">JERINGA ESTERIL DE 3 ML 21G X 1 1/2"</li>
+                        <li class="list-group-item">JERINGA ESTERIL DE 5 ML 21G X 1 1/2"</li>
+                        <li class="list-group-item">JERINGA ESTERIL DE 10 ML 21G X 1 1/2"</li>
+                        <li class="list-group-item">JERINGA ESTERIL DE 20 ML 21G X 1 1/2"</li>
+                        <li class="list-group-item">JERINGAS</li>
+                    </ul>
+                </div>
+
+                <div class="col-md-6 mb-5">
+                    <h4 class="abecedario">M</h4>
+                    <ul class="list-group">
+                        <li class="list-group-item">MARIPOSITA # 19, # 21, # 23, # 25</li>
+                        <li class="list-group-item">MASCARILLA DE ADULTO PARA NEBULIZAR</li>
+                        <li class="list-group-item">MASCARILLA DE OXIGENO ADULTO</li>
+                        <li class="list-group-item">MASCARILLA DE OXIGENO PEDIATRICA</li>
+                        <li class="list-group-item">MASCARILLA PEDIATRICA PARA NEBULIZAR</li>
+                        <li class="list-group-item">MASCARILLA QUIRURGICA</li>
+                        <li class="list-group-item">MASCARILLA TIPO BOSAL</li>
+                        <li class="list-group-item">MICROGOTERO PEDIATRICO</li>
+                    </ul>
+                </div>
+            </div>
+
+            <!-- Grupo P, S, T, V -->
+            <div class="row g-4">
+                <div class="col-md-6 mb-5">
+                    <h4 class="abecedario">P</h4>
+                    <ul class="list-group">
+                        <li class="list-group-item">PAÑALES DESECHABLES PARA ADULTOS S,M,L</li>
+                        <li class="list-group-item">PAPEL DE CAMILLA</li>
+                        <li class="list-group-item">PAPEL DE SONOGRAFIA 110 X 20 MM</li>
+                        <li class="list-group-item">PAPEL TERMICO PARA EKG 80 X 20 MM</li>
+                        <li class="list-group-item">PERITAS NASALES</li>
+                        <li class="list-group-item">PRUEBA DE EMBRAZO</li>
+                    </ul>
+                </div>
+
+                <div class="col-md-6 mb-5">
+                    <h4 class="abecedario">S</h4>
+                    <ul class="list-group">
+                        <li class="list-group-item">SONDAS FOLEY 10, 12, 14, 16, 18, 20, 22, 24</li>
+                        <li class="list-group-item">SUJETADOR DE SONDA NASOGASTRICA + ITBIS</li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="row g-4">
+                <div class="col-md-6 mb-5">
+                    <h4 class="abecedario">T</h4>
+                    <ul class="list-group">
+                        <li class="list-group-item">TERMOMETROS ORALES</li>
+                        <li class="list-group-item">TERMOMETROS RECTALES</li>
+                        <li class="list-group-item">TORNIQUETES DE LATEX</li>
+                    </ul>
+                </div>
+
+                <div class="col-md-6 mb-5">
+                    <h4 class="abecedario">V</h4>
+                    <ul class="list-group">
+                        <li class="list-group-item">VENDAJE DE GAZA  2, 3, 4, 6</li>
+                        <li class="list-group-item">VENDAS ELASTICAS 4 X 5 YARDAS</li>
+                        <li class="list-group-item">VENDAS ELASTICAS 6 X 5 YARDAS</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <!-- *** EQUIPOS MEDICOS***-->
+        <div id="equiposMedicos" style="height: 30px;"></div>
+        <section class="container mt-5 mb-5">
+        <h2 class="mb-4">Equipos Médicos</h2>
+            <div class="row g-4">
+                <div class="col-md-6 mb-5">
+                    <h4 class="abecedario">A</h4>
+                    <ul class="list-group">
+                        <li class="list-group-item">ARCHIVOS</li>
+                        <li class="list-group-item">ARMARIO DE LABORATORIO</li>
+                    </ul>
+                </div>
+
+                <div class="col-md-6 mb-5">
+                    <h4 class="abecedario">B</h4>
+                    <ul class="list-group">
+                        <li class="list-group-item">BALANZA ADULTO-PEDIATRICA/TALLIMETRO CABEZA REDONDA 160 KG</li>
+                        <li class="list-group-item">BALANZA DE ADULTO CON TALLIMETRO 200 KG</li>
+                        <li class="list-group-item">BALANZA NEONATAL INFANTOMETRO DIGITAL 20 KG CON TALLIMETRO</li>
+                        <li class="list-group-item">BALANZA PEDIATRICA DIGITAL</li>
+                        <li class="list-group-item">BANCADAS 3 ASIENTOS</li>
+                        <li class="list-group-item">BANCADAS 4 ASIENTOS</li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="row g-4">
+                <div class="col-md-6 mb-5">
+                    <h4 class="abecedario">C</h4>
+                    <ul class="list-group">
+                        <li class="list-group-item">CAMILLA DE TRAUMA / TABLA DE RESCATE</li>
+                        <li class="list-group-item">CAMILLA GINECOLOGICA</li>
+                    </ul>
+                </div>
+
+                <div class="col-md-6 mb-5">
+                    <h4 class="abecedario">D</h4>
+                    <ul class="list-group">
+                        <li class="list-group-item">DESFIBRILADORES</li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="row g-4">
+                <div class="col-md-6 mb-5">
+                    <h4 class="abecedario">E</h4>
+                    <ul class="list-group">
+                        <li class="list-group-item">ESCRITORIOS</li>
+                    </ul>
+                </div>
+
+                <div class="col-md-6 mb-5">
+                    <h4 class="abecedario">M</h4>
+                    <ul class="list-group">
+                        <li class="list-group-item">MAQUINA DE ANESTESIA/QUIROFANO DE OTORRINOLARINGOLOGIA</li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="row g-4">
+                <div class="col-md-6 mb-5">
+                    <h4 class="abecedario">S</h4>
+                    <ul class="list-group">
+                        <li class="list-group-item">SET DE CIRUJIA GENERAL</li>
+                        <li class="list-group-item">SILLA DE RUEDAS #18 SOPORTE 300 LIBRA AROS 24</li>
+                        <li class="list-group-item">SILLAS DE PACIENTES SIN BRAZO</li>
+                        <li class="list-group-item">SILLAS DE VISITA</li>
+                        <li class="list-group-item">SILLAS SECRETARIALES</li>
+                    </ul>
+                </div>
+
+                <div class="col-md-6 mb-5">
+                    <h4 class="abecedario">T</h4>
+                    <ul class="list-group">
+                        <li class="list-group-item">TABURETES PARA CAMILLAS</li>
+                        <li class="list-group-item">TERMOMETRO DIGITAL USO ORAL (RANGO DE MEDIDA 35°C-42°C)</li>
+                        <li class="list-group-item">TERMOMETRO DIGITAL USO RECTAL (RANGO DE MEDIDA 35°C-42°C)</li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="row g-4">
+                <div class="col-md-6 mb-5">
+                    <h4 class="abecedario">V</h4>
+                    <ul class="list-group">
+                        <li class="list-group-item">VITRINA MEDICA</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <!-- ***SUPOSITORIOS***-->
+        <div id="Supositorios" style="height: 30px;"></div>
+        <section class="container mt-5 mb-5">
+            <h2 class="mb-4">Supositorios</h2>
+            <div class="row g-4">
+                <div class="col-md-6 mb-5">
+                    <h4 class="abecedario">A - D</h4>
+                    <ul class="list-group">
+                        <li class="list-group-item">ACETAMINOFEN 100 MG </li>
+                        <li class="list-group-item">DICLOFENAC SODICO 12.5 MG SUPOSITORIOS NIÑOS</li>
+                        <li class="list-group-item">DICLOFENAC SODICO 50 MG  SUPOSITORIOS ADULTOS</li>
+                        <li class="list-group-item">DICLOFENAC SODICO 100 MG SUPOSITORIOS ADULTOS</li>
+                    </ul>
+                </div>
+            </div>
+        </section>              
 
     </main>
 
-
-
     <footer class="text-center text-lg-start bg-light text-white"> 
-    <div class="text-center p-4 barraFooter">      
-        <img src="../Imagenes/Logo cortado.PNG" alt="" width="250" class="d-block mx-auto mb-3 mt-0">
-        <p>© 2025 IDEMESA. Todos los derechos reservados.</p>
-            <a class="btn btn-floating" href="#!" role="button"><i class="fab fa-facebook-f"></i></a>
-            <a class="btn btn-floating" href="#!" role="button"><i class="fab fa-twitter"></i></a>
-            <a class="btn btn-floating" href="#!" role="button"><i class="fab fa-google"></i></a>
-            <a class="btn btn-floating" href="#!" role="button"><i class="fab fa-instagram"></i></a>
+        <div class="text-center p-4 barraFooter">      
+            <a class="btn btn-floating" href="https://www.facebook.com/idemesa.srl" role="button"><i class="fab fa-facebook-f"></i></a>
+            <a class="btn btn-floating" href="https://www.instagram.com/idemesasrl/" target="_blank" rel="noopener noreferrer" role="button"><i class="fab fa-instagram"></i></a>
+            <a class="btn btn-floating" href="https://wa.me/18095384656" role="button"><i class="fa-brands fa-whatsapp"></i></a>
+            <p>Todos los derechos reservados <br>© 2025 IDEMESA</p>
         </div>
     </footer>
+
+    
 
     <!-- Botón flotante de WhatsApp -->
     <a href="https://wa.me/18095384656" class="whatsapp-float" target="_blank">
         <i class="fab fa-whatsapp"></i>
     </a>
     <!-- Botón flotante de WhatsApp -->
+
+    <!-- Botón flotante de Volver Atrás -->
+    <a href="#arriba" class="back-float">
+        <i class="fa fa-arrow-up"></i>
+        <span class="back-text">Volver Arriba</span>
+    </a>
+    <!-- Botón flotante de Volver Atrás -->
+
+    <style>
+        .back-float {
+            position: fixed;
+            width: 60px;
+            height: 60px;
+            bottom: 20px;
+            left: 20px;
+            background-color: #007bff;
+            color: white;
+            border-radius: 50px;
+            text-align: center;
+            font-size: 30px;
+            z-index: 1000;
+            transition: width 0.2s;
+            overflow: visible;
+        }
+        .back-float i {
+            margin-top: 15px;
+        }
+        .back-text {
+            display: none;
+            position: absolute;
+            left: 70px;
+            top: 50%;
+            transform: translateY(-50%);
+            background: #007bff;
+            color: white;
+            padding: 5px 15px;
+            border-radius: 20px;
+            font-size: 18px;
+            white-space: nowrap;
+        }
+        .back-float:hover .back-text {
+            display: inline-block;
+        }
+    </style>
 
     <!-- Bootstrap scripts inicia -->
     <script

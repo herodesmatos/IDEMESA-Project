@@ -4,6 +4,11 @@ body {
     background-color: #ffffff;
 }
 
+.main {
+    padding: 0px;
+    margin: 0px;
+}
+
 .navbar{
     margin: 0px;
     padding: 0px;
@@ -27,6 +32,7 @@ body {
 }
 .barra {
     background-color: #004C6C;
+    margin: 0px;
 }
 
 .carousel-container {
@@ -39,12 +45,14 @@ body {
     object-fit: cover;
 }
 
-.card:hover {
-    transform: translateY(-5px);
-    transition: transform 0.3s ease;
+.cont-1:hover, .cont-2:hover, .cont-3:hover {
+    transform: scale(0.95); 
 }
-.card:active {
-    transform: scale(0.95);
+
+.cont-1, .cont-2, .cont-3 {
+    text-decoration: none;
+    transition: transform 0.3s ease;
+    color: black;
 }
 
 .card2 {
@@ -63,9 +71,13 @@ body {
 .SeccionProductos {
     padding: 20px;
     background-color: #b4c7d1;
+    margin-bottom: 0px;
 }
 .ImageIcon {
     font-size: 100px;
+    text-decoration: none;
+    color: #1b1d1d;
+    
 }
 
 .ImageIcon:hover{
